@@ -52,3 +52,10 @@ console.log(typeof year);
 
 console.log(typeof null);
 
+
+
+
+
+
+
+
