@@ -19,6 +19,7 @@ console.log(firstName + ' ' + lastName + 'is a student of computer techlnology.'
  console.log(typeof(country));
  console.log(typeof(language));
  */
+/*
 let age = 19;
 console.log(age);
 
@@ -90,8 +91,51 @@ const abushaidAge = now - 2002;
  let description = country + ' ' + 
  'is in ' + ' ' + continent + '  ' +' and it is ' + population + ' ' + 'people speak' + ' ' + language + '.';
  console.log(description);
+ */
+/*
+ const now = 2037;
+ const ageJonus = now - 1992;
+ const ageSara = now - 1998;
+
+ const average = (ageJonus + ageSara) / 2;
+
+ console.log(ageJonus , ageSara , average);
+
+console.log(now - 1992 > now - 1998);
+
+const x = y = 25 - 10 + 5;
+console.log(x);
+
+const massMark = 78;
+const massJohn = 92;
+const heightMark = 1.69;
+const heightJohn = 1.95;
+
+console.log(massMark , massJohn , heightJohn , heightMark);
+
+const Markbmi = massMark / (heightMark * heightMark);
+const Johnbmi = massJohn / (heightJohn * heightJohn);
+
+let markHigherBMI = Markbmi > Johnbmi;
+console.log(Markbmi , Johnbmi , markHigherBMI);
+
+*/
 
 
+const massMark = 95;
+const massJohn = 85;
+const heightMark = 1.88;
+const heightJohn = 1.76;
 
 
+console.log(massMark , massJohn , heightMark , heightJohn);
+
+const MarkBMI = massMark / ( heightMark * heightMark);
+const JohnBMI = massJohn / (heightJohn * heightJohn);
+
+
+let markHigherBMI = MarkBMI > JohnBMI;
+
+
+console.log(MarkBMI , JohnBMI , markHigherBMI);
 
