@@ -121,6 +121,8 @@ console.log(Markbmi , Johnbmi , markHigherBMI);
 
 */
 
+/*
+
 
 const massMark = 95;
 const massJohn = 85;
@@ -139,3 +141,26 @@ let markHigherBMI = MarkBMI > JohnBMI;
 
 console.log(MarkBMI , JohnBMI , markHigherBMI);
 
+
+*/
+
+const firstName = 'Abu Shaid';
+const lastName = 'Sabbir';
+const topics = 'Javascript';
+const institute = 'NBICT LAB';
+const startYear = 2016;
+const endYear = 2021;
+
+const result = " I'm " + firstName +' ' + lastName + '. I am learning ' + topics + ' at ' + institute + ' for ' + (endYear -startYear) + ' years!';
+console.log(result);
+
+
+console.log(`I'm ${firstName} ${lastName}.I am learning ${topics} at ${institute} for ${endYear - startYear} years!`)
+
+console.log(`i am ${firstName} ${lastName}.
+I am learning ${topics} at
+${institute} for ${endYear -startYear} years!`);
+
+console.log("I am Abu shaid Sabbir.\n\
+I am learning Javascript \n\
+NBICT LAB for 5 years");
